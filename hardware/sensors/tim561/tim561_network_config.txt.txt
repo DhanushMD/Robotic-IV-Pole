@@ -1,0 +1,44 @@
+========================================================
+SICK TiM561 – Network Configuration
+Project: Robotic IV Pole
+Owner: Dhanush Manjunath
+========================================================
+
+Device Information
+------------------
+Model: SICK TiM561
+Firmware Version: V5.01-30.03.23
+Serial Number: 24200812
+
+Ethernet Configuration
+----------------------
+Addressing Mode: Static
+IP Address: 192.168.0.1
+Subnet Mask: 255.255.255.0
+Default Gateway: 0.0.0.0
+Link Speed: 100 Mb Full Duplex
+
+Communication Ports
+-------------------
+Host Port:
+  Protocol: CoLa ASCII
+  Mode: Server
+  TCP Port: 2112
+
+Aux Port:
+  Protocol: CoLa ASCII
+  Mode: Server
+  TCP Port: 2111
+
+Scan Configuration
+------------------
+Scan Frequency: 15 Hz
+Angle Resolution: 0.333°
+Scan Range: -45° to 225°
+Output Data Range: -45° to 225°
+
+Notes
+-----
+• Device successfully connected via SOPAS Engineering Tool.
+• Parameters read from device and synchronized.
+• Configuration saved permanently to device.

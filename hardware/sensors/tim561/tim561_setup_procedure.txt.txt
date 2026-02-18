@@ -1,0 +1,59 @@
+========================================================
+SICK TiM561 – Setup Procedure
+Project: Robotic IV Pole
+========================================================
+
+Physical Setup
+--------------
+1. Connect SICK power cable (Part No. 6008899).
+2. Apply 12V DC power supply.
+3. Verify green middle LED indicates ready state.
+4. Connect Ethernet directly to laptop or Jetson.
+
+Initial PC Network Configuration
+---------------------------------
+1. Set PC Ethernet adapter to static IP.
+2. Assign IP in 192.168.0.x range (e.g., 192.168.0.100).
+3. Subnet mask: 255.255.255.0.
+4. Verify connectivity with:
+   ping 192.168.0.1
+
+SOPAS Configuration
+-------------------
+1. Open SOPAS Engineering Tool.
+2. Search for devices.
+3. Select TiM561 (192.168.0.1:2111 or :2112).
+4. Login as "Maintenance" (default, no password).
+5. When prompted, select:
+   → Read Parameters (to sync project with device).
+6. Go Online.
+7. Open Monitor → Scan View Pro.
+8. Verify live 2D scan data is visible.
+
+Parameter Verification
+----------------------
+1. Navigate to Network / Interface → Ethernet.
+2. Confirm:
+   IP = 192.168.0.1
+   Host Port = 2112
+   Aux Port = 2111
+3. Confirm scan frequency and resolution in Basic Settings.
+
+Saving Configuration
+--------------------
+1. Save parameters permanently.
+2. Save SOPAS project file for version control.
+3. Commit configuration files to GitHub repository.
+
+Shutdown Procedure
+------------------
+1. Stop measurement.
+2. Close Scan View.
+3. Close SOPAS.
+4. Remove power from device.
+
+Integration Plan (Future)
+-------------------------
+• Jetson Nano will connect via TCP to port 2112.
+• CoLa ASCII or ROS driver will be used.
+• Jetson will process scan data for obstacle avoidance.
