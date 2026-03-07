@@ -1,0 +1,544 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2287a9ca-7228-4b05-afea-e06de6e3af44")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 151.13 16.51)
+		(size 120.65 55.88)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "32054573-5926-48cb-8917-a36c9a3d2797")
+		(property "Sheetname" "02_controllers"
+			(at 151.13 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "02_controllers.kicad_sch"
+			(at 151.13 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ENC_L_B" input
+			(at 151.13 19.05 180)
+			(uuid "d095ea56-e6b0-4e29-8838-d0614501e03b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ENC_R_B" input
+			(at 151.13 21.59 180)
+			(uuid "10c186c0-209d-4407-b24b-1918c801d4fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "L_PWM" input
+			(at 151.13 24.13 180)
+			(uuid "18b32550-9b29-41b9-8786-5b06e28ac18b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "L_DIR" input
+			(at 151.13 26.67 180)
+			(uuid "8f60a433-8943-4d5a-bd4a-42ea8aaef93e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "R_DIR" input
+			(at 151.13 29.21 180)
+			(uuid "57f92f59-30d7-49ca-8fa5-df03e0f72686")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ENC_L_A" input
+			(at 151.13 31.75 180)
+			(uuid "a814aee3-6bcd-4993-b363-ee1a9ef164e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "L_EN" input
+			(at 151.13 34.29 180)
+			(uuid "cf04551f-7471-4561-b9fc-ee62f7e27440")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ENC_R_A" input
+			(at 151.13 36.83 180)
+			(uuid "9039363f-dadb-445f-91e4-b14b2660daaf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_SDA" input
+			(at 151.13 39.37 180)
+			(uuid "d2fda785-8c44-42a8-ab0a-25e2809e5569")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "R_EN" input
+			(at 151.13 41.91 180)
+			(uuid "d5fdd805-c9d6-42fd-84ab-e87aeb6297d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "R_PWM" input
+			(at 151.13 44.45 180)
+			(uuid "1f5e24c7-a632-4987-a61c-335914e044e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_SCL" input
+			(at 151.13 46.99 180)
+			(uuid "2b426d11-565f-436a-b774-c01dedb62819")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "US_FL_ECHO" input
+			(at 151.13 49.53 180)
+			(uuid "db622cea-43c9-4034-bcb1-ce296a2c6b44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "US_FL_TRIG" input
+			(at 151.13 52.07 180)
+			(uuid "83ba0f14-11cb-4a06-a693-820c6229f205")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UWM_B_RX" input
+			(at 151.13 54.61 180)
+			(uuid "f31ea0c8-c53d-4761-a2ba-72105c237cb8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "US_RL_TRIG" input
+			(at 151.13 57.15 180)
+			(uuid "42504448-7836-4b4e-856c-36c9d02b211c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "US_RL_ECHO" input
+			(at 151.13 59.69 180)
+			(uuid "abfc448f-bb7d-4836-bbd0-f2f2a5030417")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "US_FR_ECHO" input
+			(at 151.13 62.23 180)
+			(uuid "659ec1cd-f216-4a78-9ca9-f8e6b10865fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "US_RR_TRIG" input
+			(at 151.13 64.77 180)
+			(uuid "6452a354-8757-4118-8cc1-9e864ee02205")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "US_RR_ECHO" input
+			(at 151.13 67.31 180)
+			(uuid "c86292ed-006a-4c91-8982-52f170d67d1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LIDAR_ETH" input
+			(at 151.13 69.85 180)
+			(uuid "ec04336d-802a-4da3-8457-682ebd7fb693")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "US_FR_TRIG" input
+			(at 167.64 72.39 270)
+			(uuid "2e959cf3-f470-48f9-bace-f667ef63d2d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UWB_A_TX" input
+			(at 170.18 72.39 270)
+			(uuid "aaf61095-e511-4f74-b737-92ed8058ace9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UWB_B_TX" input
+			(at 172.72 72.39 270)
+			(uuid "92e6a7d6-078f-419c-bfbf-3b3619ac562d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UWB_A_RX" input
+			(at 175.26 72.39 270)
+			(uuid "57ac2a54-3666-4c4c-8ee8-5cc55ad69dea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V_ARDUINO" input
+			(at 177.8 72.39 270)
+			(uuid "9c9efe16-5258-4e4a-81cd-68553ae4461b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "19V_JETSON" input
+			(at 180.34 72.39 270)
+			(uuid "9bd039bb-0551-4dce-bae1-84833fc0b113")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "robotic_iv_pole_system"
+				(path "/2287a9ca-7228-4b05-afea-e06de6e3af44"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 78.74)
+		(size 124.46 57.15)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4064c71e-dfc2-4118-a91e-265f353cc0e7")
+		(property "Sheetname" "03_drive_left"
+			(at 20.32 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "03_drive_left.kicad_sch"
+			(at 20.32 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "robotic_iv_pole_system"
+				(path "/2287a9ca-7228-4b05-afea-e06de6e3af44"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 78.74)
+		(size 119.38 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "789b5f90-b463-4347-a126-0908367e2ef0")
+		(property "Sheetname" "04_drive_right"
+			(at 151.13 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "04_drive_right.kicad_sch"
+			(at 151.13 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "robotic_iv_pole_system"
+				(path "/2287a9ca-7228-4b05-afea-e06de6e3af44"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 16.51)
+		(size 123.19 55.88)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a56c10fa-50b1-48ba-a77d-6c04db930b62")
+		(property "Sheetname" "01_power"
+			(at 20.32 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "01_power.kicad_sch"
+			(at 20.32 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V_ARDUINO" input
+			(at 143.51 43.18 0)
+			(uuid "37a48139-36bc-4c86-a0a9-a0367f770e4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "19V_JETSON" input
+			(at 143.51 34.29 0)
+			(uuid "e50f9d2a-4441-44e4-b9a4-69d721ed2432")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V_SENS" input
+			(at 143.51 52.07 0)
+			(uuid "5f73801d-650a-4794-8a44-9c0af3bfb9f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 143.51 60.96 0)
+			(uuid "38bf5297-6e71-43a8-90ea-54afd13ff53d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBAT_SW_12V" input
+			(at 143.51 25.4 0)
+			(uuid "52d1d25a-d6fc-424d-8f8d-84860c00c857")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "robotic_iv_pole_system"
+				(path "/2287a9ca-7228-4b05-afea-e06de6e3af44"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 140.97)
+		(size 128.27 52.07)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d2ce1d29-3dee-4d0c-a69f-937b2e3b02f9")
+		(property "Sheetname" "05_sensors"
+			(at 19.05 140.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "05_sensors.kicad_sch"
+			(at 19.05 193.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "robotic_iv_pole_system"
+				(path "/2287a9ca-7228-4b05-afea-e06de6e3af44"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
