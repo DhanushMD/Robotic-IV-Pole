@@ -16,3 +16,12 @@ Autonomous patient-following IV pole system.
 - software/ → ROS2, perception, navigation
 - docs/ → Architecture, power budget
 - simulations/ → Control simulations
+
+
+## Contributors
+Dhanush Manjunath - Electronics and Software Lead
+Pranuti Devisetty - Manufacturing Lead
+Marina Mercado San Martin - Manufacturing Lead
+Gus Brannock - Testing Validation Lead
+Izzy Carlisle - Project Manager
+Tommy Kappock - Physical Design Lead
