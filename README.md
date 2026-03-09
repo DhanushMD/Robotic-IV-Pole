@@ -2,6 +2,9 @@
 
 Autonomous patient-following IV pole system.
 
+<img width="441" height="997" alt="image" src="https://github.com/user-attachments/assets/344c692c-6af7-4b90-9bb1-368b6354b56a" />
+
+
 ## System Components
 - Jetson Nano
 - Arduino Mega 2560
@@ -19,9 +22,9 @@ Autonomous patient-following IV pole system.
 
 
 ## Contributors
-Dhanush Manjunath - Electronics and Software Lead
-Pranuti Devisetty - Manufacturing Lead
-Marina Mercado San Martin - Manufacturing Lead
-Gus Brannock - Testing Validation Lead
-Izzy Carlisle - Project Manager
-Tommy Kappock - Physical Design Lead
+- Dhanush Manjunath: Electronics and Software Lead
+- Pranuti Devisetty: Manufacturing Lead
+- Marina Mercado San Martin: Manufacturing Lead
+- Gus Brannock: Testing Validation Lead
+- Izzy Carlisle: Project Manager
+- Tommy Kappock: Physical Design Lead
